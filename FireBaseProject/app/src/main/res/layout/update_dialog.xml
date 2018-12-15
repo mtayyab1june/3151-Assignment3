@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etxt1"
+        android:hint="Enter Name Here"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etxt2"
+        android:hint="Enter RegNo Here"
+        android:layout_below="@id/etxt1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/etxt3"
+        android:hint="Enter Age Here"
+        android:layout_below="@id/etxt2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="Update"
+        android:textStyle="bold"
+        android:layout_below="@id/etxt3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:text="Delete"
+        android:textStyle="bold"
+        android:layout_below="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>
